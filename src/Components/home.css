@@ -1,0 +1,96 @@
+.back{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.back .takes{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    font-size: 1.2rem;
+}
+.back .takes .takes_r_c
+{
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+}
+.back .takes .takes_r_c .take_r
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    align-items: flex-start;
+}
+.back .takes .takes_r_c .take_r input
+{
+    border: 0.1rem rgba(85, 85, 85, 0.459) solid;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    width: 100%;
+    outline: none;
+}
+.back .takes .takes_r_c .take_r #color
+{
+    padding: 0rem;
+    width: 80%;
+    height: 30%;
+}
+.back .takes button
+{
+    position: relative;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 0.6rem;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.back .takes button:hover
+{
+    background-color: rgb(182, 115, 245);
+}
+.back .takes button:active
+{
+    transform: scale(0.95);
+}
+.back .boxs
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    width: 50%;
+    font-size: 1.2rem;
+}
+.back .boxs .boxes tbody td
+{
+    padding: 1rem;
+}
+.back .boxs .box
+{
+    position: relative;
+    background-color: cadetblue;
+    color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.3rem;
+    margin: 3%;
+    cursor: pointer;
+}
